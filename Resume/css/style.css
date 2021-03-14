@@ -1,0 +1,57 @@
+#mi{
+	height: 350;
+	width: 135px;
+}
+
+.new
+{
+	background-color: #ccffcc;
+}
+
+.name
+{
+	color:red;
+	
+}
+
+.info
+{
+	font-weight: bold;
+	color: green;
+	/*background-color: #cccccc;*/
+}
+
+.sub{
+	text-decoration: underline;
+	/*background-color: #ffcccc;*/
+	/*background-color: #ffccff;*/
+	background-color: #ffffcc; 
+}
+
+.cert
+{
+	  font-style: italic;
+}
+
+table
+{
+	width: 75%;
+}
+
+ table, th 
+{
+	    border: 2px solid black;
+}
+
+table, td
+{
+	text-align: center;
+	border-collapse: collapse;
+	border: 1px solid black;
+
+}
+
+.Personal
+{
+	text-align: center;
+}
