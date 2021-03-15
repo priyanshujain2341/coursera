@@ -50,8 +50,17 @@ table, td
 	border: 1px solid black;
 
 }
-
+/*
+button{
+	font-weight: bold;
+}
+*/
 .Personal
+{
+	text-align: center;
+}
+
+.specialization
 {
 	text-align: center;
 }
