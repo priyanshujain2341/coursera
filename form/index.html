@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body style="background-image: url('./img/back.jpg');">
+<div>
+	<h1>Student Registration Form</h1>
+</div>
+<div><h3>Fill out the form carefully for registration</h3></div>
+<form action="results.html" method="GET">
+<div>Student Name</div>
+<div>
+	<label for="firstname"></label>
+	<input type="text" name="firstname" id="firstname" placeholder="First Name" size="30">
+	<label for="secondname"></label>
+	<input type="text" name="secondname" id="secondname" placeholder="Second Name" size="30">
+	<label for="lastname"></label>
+	<input type="text" name="lastname" id="lastname" placeholder="Last Name" size="30">
+</div>
+<br>
+
+<div>Birth Date</div>
+<div>
+	<label for="birthdate"></label>
+	<input type="Date" name="birthdate" id="birthdate" min="2001-01-01">
+</div>
+<br>
+
+<div>
+	Gender
+</div>
+<div>
+	<label for="gender"></label>
+	<select name="gender" id="gender">
+		<option value="Male">Male</option>
+		<option value="Female">Female</option>
+	</select>
+</div>
+<br>
+
+<div>
+	Address
+</div>
+<div>
+	<label for="a1"></label>
+	<input type="text" name="a1" id="a1" placeholder="Address Line 1" size="56">
+</div>
+<div>
+	<label for="a2"></label>
+	<input type="text" name="a2" id="a2" placeholder="Address Line 2" size="56">
+</div>
+<div>
+	<label for="city"></label>
+	<input type="text" name="city" id="city" placeholder="City">
+	<label for="State"></label>
+	<input type="text" name="State" id="State" placeholder="State/Province" size="30">
+</div>
+<br>
+
+<div>
+	Postal Code
+</div>
+<div>
+	<label for="pincode"></label>
+	<input type="number" name="pincode" id="pincode" placeholder="Pincode" min="100000">
+
+	<label for="country" style="margin-left: 20px">Country:</label>
+	<select name="country" id="country">
+		<option value="India">India</option>
+		<option value="USA">USA</option>
+		<option value="others">Others</option>
+	</select>
+</div>
+<br>
+
+<div>
+	E-mail
+</div>
+<div>
+	<label for="email"></label>
+	<input type="email" name="email" id="email" placeholder="something@somewhere.com" required size="50">
+</div>
+<br>
+
+<div>
+	Mobile
+</div>
+<div>
+	<label for="phone"></label>
+	<input type="tel" name="phone" id="phone" placeholder="+(*)0000000000">
+</div>
+<br>
+<br>
+
+
+<div>
+	<button type="reset">Reset</button>
+	<button type="submit">Submit</button>
+</div>
+</form>
+</body>
+</html>

@@ -1,0 +1,51 @@
+body
+{
+	background-image: url('./img/back.jpg');
+	/*background-color: #D0D0D0;*/
+}
+
+#firstname, #secondname, #lastname, #birthdate, #pincode, #city, #State, #email, #phone
+{
+	height: 22px;
+}
+
+#gender
+{
+	height: 30px;
+}
+
+#country
+{
+	height: 25px;
+}
+
+#a1, #a2
+{
+	height: 25px;
+	margin-bottom: 5px;
+}
+
+h1
+{
+	text-align: center;
+	color: #ff0066;
+	text-shadow: 1px 1px black;
+}
+
+h3
+{
+	color: #ff6699;
+	font-weight: bold;
+}
+
+div
+{
+	font-weight: bold;
+	color: #ff4d94;
+	text-shadow: 1px 1px #ff0066;
+}
+
+button
+{
+	/*align-items: center;*/
+}
