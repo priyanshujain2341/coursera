@@ -1,0 +1,111 @@
+*
+{
+	box-sizing: border-box;
+}
+
+body
+{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1
+{
+	text-align: center;
+}
+
+.main
+{
+	position: relative;
+	margin-top: 70px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.row
+{
+	width: 100%
+}
+
+.item
+{
+	position: relative;
+	border: 1px solid #000;
+	margin: 20px;
+	padding: 10px;
+	background-color: grey;
+	margin-top: 30px; 
+}
+
+.heading
+{
+	position: absolute;
+	top:0px;
+	right: 0px;
+	background-color: green;
+	padding: 0px 50px;
+	border-bottom: 1px solid #000;
+	border-left: 1px solid #000;
+}
+
+
+#heading-one {
+  background-color: #D59898;
+} 
+
+#heading-two{
+  background-color: #C14543;
+  color: white;
+}
+
+#heading-three{
+  background-color: #E5D198;
+}
+
+
+p
+{
+	margin-top: 55px;
+	padding: 5px;
+}
+
+
+
+/********************* Responsive Design **********************/
+
+/* Desktops/Laptops */ 
+@media (min-width: 992px)
+{
+	.col-lg-4, .col-sm-12
+	{
+		float: left;
+		width: 33.33%;
+	}
+}
+/************************************************/
+
+/* Tablets/iPads */
+@media (min-width: 768px) and (max-width: 991px)
+{
+	.col-lg-4
+	{
+		float: left;
+		width: 50%;
+	}
+	.col-sm-12
+	{
+		float: left;
+		width: 100%
+	}
+}
+/**************************/
+
+/* Mobiles */
+@media (max-width: 767px)
+{
+	.col-lg-4, .col-sm-12
+	{
+		float: left;
+		width: 100%;
+	}
+}
+/*********************/
