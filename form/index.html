@@ -2,14 +2,18 @@
 <html>
 <head>
 	<title>Form</title>
+	<script type="text/javascript" src="./js/javascript.js"></script>
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
+
 <body style="background-image: url('./img/back.jpg');">
 <div>
 	<h1>Student Registration Form</h1>
 </div>
+
 <div><h3>Fill out the form carefully for registration</h3></div>
-<form action="results.html" method="GET">
+
+<form onsubmit="return validate()">
 <div>Student Name</div>
 <div>
 	<label for="firstname"></label>
@@ -80,7 +84,7 @@
 </div>
 <div>
 	<label for="email"></label>
-	<input type="email" name="email" id="email" placeholder="something@somewhere.com" required size="50">
+	<input type="email" name="email" id="email" placeholder="something@somewhere.com" size="50">
 </div>
 <br>
 
@@ -89,11 +93,10 @@
 </div>
 <div>
 	<label for="phone"></label>
-	<input type="tel" name="phone" id="phone" placeholder="+(*)0000000000">
+	<input type="tel" name="phone" id="phone" placeholder="1234567890">
 </div>
 <br>
 <br>
-
 
 <div>
 	<button type="reset">Reset</button>
