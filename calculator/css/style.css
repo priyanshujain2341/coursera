@@ -6,7 +6,7 @@ body{
 	width: 1000px;
 	height: 550px;
 	/*background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(./img/23.jpg);*/
-	margin: 20px auto;	
+	margin: 19px auto;	
 }
 #calculator{
 	width: 320px;
@@ -27,7 +27,7 @@ body{
 	margin: 0 20px;
 	padding-top: 20px;
 	font-size: 15px;
-	color: #919191;
+	color: #803fc0;
 }
 #output{
 	text-align: right;
